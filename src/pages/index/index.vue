@@ -20,6 +20,8 @@
 <script setup>
 import { useEnv, useNavigationBar, useModal, useToast } from "taro-hooks";
 import logo from './hook.png'
+import Taro from "@tarojs/taro";
+import { log } from "@taro-hooks/shared";
 
 const env = useEnv();
 const { setTitle } = useNavigationBar({ title: "Taro Hooks" });
@@ -35,6 +37,17 @@ const handleModal = () => {
   showModal({ content: "不如给一个star⭐️!" }).then(() => {
     show({ title: "点击了支持!" });
   });
+  console.log("handleModal");
+  Taro.cloud.callFunction({
+    name: "test",
+    data: {
+      a: 1,
+      b: 2,
+    },
+  }).then(res => {
+    console.log(res.result.event);
+  });
+
 };
 </script>
 

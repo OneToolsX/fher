@@ -27,8 +27,8 @@ Ui library:
 
 ## TODO
 
-- [ ] select the UI library
-- [ ] ingeterate the Serverless Framework
+- [x] select the UI library
+- [x] ingeterate the Serverless Framework, Taro is support the wx.cloud, so we not need to add other package.
 
 ### Build
 
