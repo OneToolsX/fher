@@ -20,10 +20,10 @@ For the frontend, we chose Taro, which supports WeChat mini program, Alipay mini
   - [Taro](https://taro.jd.com/)
   - [Vue 3](https://v3.vuejs.org/guide/introduction.html)
   - [NutUI](https://nutui.jd.com/taro/vue/4x/#/zh-CN/guide/intro)
+- Server
+  - [Cloud Dev](https://taro-docs.jd.com/docs/next/apis/cloud/)
 
 ## Development
-
-Ui library: 
 
 ## TODO
 
