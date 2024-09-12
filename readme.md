@@ -14,8 +14,16 @@ To start, we want only a server for the WeChat mini program. By leveraging the s
 
 For the frontend, we chose Taro, which supports WeChat mini program, Alipay mini program, and the web. An important factor is that we don't want to learn specific technologies for each platform. We want to use the same technology, `Vue` or `React`, to support all platforms. At this time, Taro satisfies our requirements.
 
+### Stack
+
+- Frontend
+  - [Taro](https://taro.jd.com/)
+  - [Vue 3](https://v3.vuejs.org/guide/introduction.html)
+  - [NutUI](https://nutui.jd.com/taro/vue/4x/#/zh-CN/guide/intro)
+
 ## Development
 
+Ui library: 
 
 ## TODO
 
