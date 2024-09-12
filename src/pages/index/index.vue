@@ -10,10 +10,10 @@
       <text class="label">运行环境</text>
       <text class="note">{{ env }}</text>
     </view>
-    <button class="button" @tap="setTitle('Taro Hooks Nice!')">
+    <nut-button type="primary" @tap="setTitle('Taro Hooks Nice!')">
       设置标题
-    </button>
-    <button class="button" @tap="handleModal()">使用Modal</button>
+    </nut-button>
+    <nut-button type="info" @tap="handleModal()">使用Modal</nut-button>
   </view>
 </template>
 
@@ -88,11 +88,4 @@ page {
   flex: 0.4;
 }
 
-.button {
-  display: block;
-  width: 100%;
-  background-color: transparent;
-  border-radius: 2px;
-  margin-top: 20px;
-}
 </style>
