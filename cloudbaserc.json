@@ -1,0 +1,17 @@
+{
+  "envId": "{{env.ENV_ID}}",
+  "$schema": "https://framework-1258016615.tcloudbaseapp.com/schema/latest.json",
+  "version": "2.0",
+  "framework": {
+   "name": "fher", 
+    "plugins": {
+        "client": {
+          "use": "@cloudbase/framework-plugin-website",
+          "inputs": {
+            "outputPath": "out",
+            "ignore": [".git", ".github", "node_modules", "cloudbaserc.js"]
+          }
+        }
+    }
+  }
+}

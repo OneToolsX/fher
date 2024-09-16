@@ -79,6 +79,13 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
+        # detail see the cloudbaserc.json
+      - name: Deploy to Tencent CloudBase
+        uses: TencentCloudBase/cloudbase-action@v2.0.1
+        with:
+          secretId: ${{secrets.secretId}}
+          secretKey: ${{secrets.secretKey}}
+          envId: ${{secrets.envId}}
 
   # Deployment job
   deploy:
