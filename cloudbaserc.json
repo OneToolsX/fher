@@ -8,7 +8,7 @@
         "client": {
           "use": "@cloudbase/framework-plugin-website",
           "inputs": {
-            "cloudPath": "fher",
+            "cloudPath": "/fher",
             "outputPath": "out",
             "ignore": [".git", ".github", "node_modules", "cloudbaserc.js"]
           }
